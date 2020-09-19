@@ -17,6 +17,4 @@ def sumatoria_cubica(n):
 
 def sumatoria_constante(n):
 
-    res = (n ** 3 + 3 * 100 ** 2 + 2 * n) / 3
-
-    return res
+    return (n ** 3 + 3 * n ** 2 + 2 * n) / 3
